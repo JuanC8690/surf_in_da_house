@@ -1,0 +1,90 @@
+@import "nosotros";
+@import "productos";
+    
+    $myFont: 'preconnect';
+    $myColor: black;
+    $myFontSize: 40px;
+    $myTextalign: center;
+
+h1{
+  text-align: center;
+  font-family: serif;
+  text-transform:uppercase;
+  font-size:80px;
+  padding:30px;
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(90, 140, 250) , rgb(169, 230, 157));
+}
+
+
+h6{
+    color: black;
+    text-align: center;
+    $myFont: 'preconnect';
+    text-align: center;
+    font-size: 35px;
+  
+}
+
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+    
+.dark-mode {
+      background-color: black;
+      color: white;
+}
+  
+
+p{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+
+  
+.foto{
+     background-color: lightgrey;
+     width: 300px;
+     border: 15px dotted dashed solid slateblue;
+     padding: 40px;
+     margin: 10px;
+     $bg-color: red;
+     position: relative;
+     animation-name: example;
+     animation-duration: 10s;
+     animation-iteration-count: infinite; 
+  }
+  
+@keyframes example {
+    0%   {background-color:red; left:0px; right: 0px; right: 0px;}
+    25%  {background-color:yellow; left:200px; right: 200px;}
+    50%  {background-color:blue; left:200px; right: 200px;}
+    75%  {background-color:green; left:0px; right: 200px;}
+    100% {background-color:red; left:0px; right: 200px;}
+  }
+  
+.radar1 iframe{
+    width: 700px;
+    height: 300px;
+    border: blue;
+    align-items: center;
+    margin-right: 25%;
+  }
+
+.jumbotron{
+    width: 100%;
+    height: 250px;
+    margin: 1px;
+    text-align:center;
+  }
+
+  hr.new5 {
+    border: 10px solid rgb(2, 160, 199);
+    border-radius: 5px;
+  }

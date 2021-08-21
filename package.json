@@ -1,0 +1,26 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss public/scss/index.scss public/css/index.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanC8690/mi_repositorio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JuanC8690/mi_repositorio/issues"
+  },
+  "homepage": "https://github.com/JuanC8690/mi_repositorio#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  }
+}

@@ -1,0 +1,53 @@
+
+
+  
+  body{
+    background-image: linear-gradient(to right, rgb(90, 140, 250) , rgb(169, 230, 157));
+  }
+  
+  .navbar-brand{
+    background-image: linear-gradient(to right, green , blue);
+  }
+  .dropdown-menu{
+    background-color:grey;
+    color: black;
+  }
+  
+  p.demo{
+    color: white;
+  }
+  
+  h3{
+    color: rgb(12, 12, 12);
+    font-size: 30px;
+    font-family: serif;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .carousel {
+    width: 500px;
+    height: 500px;
+  }
+  
+  .carousel-inner img {
+    width: 500px;
+    height: 500px;
+    padding: 10%;
+  }
+  
+  .container{
+    width: 500px;
+    height: 500px;
+  }
+  .flex-container{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(252, 252, 252);
+  }
+  
+  .demo{
+    background-color: yellow;
+    font-size: 20px;
+  }
+
